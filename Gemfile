@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in ruby_gestpay_starter.gemspec
-gemspec
+gem 'sinatra'
