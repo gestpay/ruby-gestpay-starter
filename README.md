@@ -32,6 +32,13 @@ $ ruby app.rb
 
 Then, navigate to [`http://localhost:4567`](`http://localhost:4567`) to see the magic.
 
+If you want to restart the app everytime you change something:
+
+```console
+$ gem install rerun
+$ rerun 'ruby app.rb'
+```
+
 
 ## Contributing, Typos, Fixes, just-say-Hi
 

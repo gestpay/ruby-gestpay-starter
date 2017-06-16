@@ -30,7 +30,7 @@ class App < Sinatra::Application
     }
     encrypt_response = @gestpay.encrypt encrypt_request
     if encrypt_response.dig(:error_code) != "0"
-      raise "Error during Encrypt, errorcode:"+encrypt_response.dig(:error_code)+ " errorDescription:" + encrypt_response.dig(:error_description)
+      raise "Error during Encrypt, errorcode: "+encrypt_response.dig(:error_code)+ " errorDescription: " + encrypt_response.dig(:error_description)
     end
     crypted_string = encrypt_response.dig(:crypt_decrypt_string)
     erb :pay, :locals => {
