@@ -22,6 +22,9 @@ in the Merchant Back-Office, setup these attributes:
 - IP Address - the public IP your server is using
 - success & failure response redirect url: `http://localhost:4567/response`
 
+In the app code: 
+- Open `constants.rb` and update `SHOP_LOGIN` with your Shop Login. 
+
 ## Usage
 
 To start this app, simply launch
