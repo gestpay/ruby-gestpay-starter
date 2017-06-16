@@ -23,7 +23,7 @@ in the Merchant Back-Office, setup these attributes:
 - success & failure response redirect url: `http://localhost:4567/response`
 
 In the app code: 
-- Open `constants.rb` and update `SHOP_LOGIN` with your Shop Login. 
+- Open `./ruby_gestpay_starter/constants.rb` and update `SHOP_LOGIN` with your Shop Login.
 
 ## Usage
 
